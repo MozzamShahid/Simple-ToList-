@@ -1,14 +1,10 @@
-import React from "react";
-import './App.css'
-import Header from "./components/Header";
-import Card from "./components/Card";
+import React from 'react'
+import Todo from './components/Todo'
+
 function App() {
   return (
-    <div className="ml-36 mr-36">
-    <Header/>
-    <Card/>
-    </div>
-  );
+   <Todo/>
+  )
 }
 
-export default App;
+export default App
